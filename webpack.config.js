@@ -3,7 +3,8 @@ const path = require("path")
 const postCSSplugins = [
     require('postcss-simple-vars'),
     require('postcss-nested'),
-    require('autoprefixer')
+    require('autoprefixer'),
+    require('postcss-import')
 ]
 
 module.exports = {
