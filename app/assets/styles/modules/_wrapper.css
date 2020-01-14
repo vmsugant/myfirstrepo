@@ -5,3 +5,12 @@
     margin-left: auto;
     margin-right:auto;
 }
+
+.wrapper--medium{
+    max-width:976px;
+}
+
+.wrapper .wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+}
