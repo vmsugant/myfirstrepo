@@ -1,0 +1,21 @@
+
+@mixin atMedium{
+    .row__medium-4{
+        float:left;
+        width:33.33%;
+    }
+    
+    .row__medium-8{
+        float:left;
+        width:66.66%;
+    }    
+}
+
+.row{
+    @mixin clearFix;
+}
+
+.row--gutters > div {
+    padding-right: 65px;
+    box-sizing:border-box;
+}
