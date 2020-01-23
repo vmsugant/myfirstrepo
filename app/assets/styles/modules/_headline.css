@@ -41,3 +41,7 @@
 .headline-b-margin-small{
     margin-bottom: .5em;
 }
+
+.headline--no-top-margin{
+    margin-top:0;
+}
