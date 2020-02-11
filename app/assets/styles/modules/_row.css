@@ -27,3 +27,17 @@
 .row__medium-8--smaller{
     width:63%;
 }
+
+.row__medium-6{
+    width:50%;
+    float:left;
+}
+
+.row--gutters_large{
+    margin-right:-100px;   
+}
+
+.row--gutters_large > div {
+    padding-right: 100px;
+    box-sizing:border-box;
+}
